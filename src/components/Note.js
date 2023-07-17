@@ -1,6 +1,6 @@
-const Note = ({ content, id }) => {
-  console.log("hello", content);
-  return <li key={id}>{content}</li>;
+const Note = ({ id, note }) => {
+  console.log("hello", note.content);
+  return <li key={id}>{note.content}</li>;
 };
 
 export default Note;
